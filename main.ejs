@@ -1,1 +1,21 @@
 <a class="OLSKEdit" href="<%= OLSKEditURL %>" target="_blank"><%= OLSKLocalized('OLSKEditText') %></a>
+<style>
+.OLSKEdit {
+	display: block;
+
+	--OLSKDecorModuleForeground: #333 !important;
+
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 2px dashed var(--OLSKCommonForeground);
+
+	margin: 80px 0;
+
+	text-align: center;
+	opacity: 0.5;
+}
+
+.OLSKEdit:hover {
+	opacity: unset;
+}
+</style>
