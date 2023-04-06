@@ -13,11 +13,11 @@ describe('OLSKEdit_Misc', function () {
 	describe('OLSKEdit', function test_OLSKEdit () {
 
 		it('sets href', function () {
-			browser.assert.attribute(OLSKEdit, 'href', OLSKEditURL);
+			return browser.assert.attribute(OLSKEdit, 'href', OLSKEditURL);
 		});
 
 		it('sets target', function () {
-			browser.assert.attribute(OLSKEdit, 'target', '_blank');
+			return browser.assert.attribute(OLSKEdit, 'target', '_blank');
 		});
 
 	});

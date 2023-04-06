@@ -13,7 +13,7 @@ describe('OLSKEdit_Access', function () {
 	});
 
 	it('shows OLSKEdit', function () {
-		browser.assert.elements(OLSKEdit, 1);
+		return browser.assert.elements(OLSKEdit, 1);
 	});
 
 });

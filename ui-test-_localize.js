@@ -15,7 +15,7 @@ kDefaultRoute.OLSKRouteLanguageCodes.forEach(function (OLSKRoutingLanguage) {
 		});
 
 		it('localizes OLSKEdit', function () {
-			browser.assert.text(OLSKEdit, uLocalized('OLSKEditText'));
+			return browser.assert.text(OLSKEdit, uLocalized('OLSKEditText'));
 		});
 	
 	});
